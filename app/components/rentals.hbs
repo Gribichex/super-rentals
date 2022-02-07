@@ -1,11 +1,15 @@
-<div class="rentals">
+<div class='rentals'>
   <label>
     <span>{{t 'rentals.searchbar.title'}}</span>
-    <Input @value={{this.query}} class="light" />
+    <Input @value={{this.query}} class='light' />
   </label>
 
-  <ul class="results">
+  <ul class='results'>
     <Rentals::Filter @rentals={{@rentals}} @query={{this.query}} as |results|>
+      <div class='searchResult'>{{t
+          'rentals.propertycount'
+          numProperties=results.length
+        }}</div>
       {{#each results as |rental|}}
         <li><Rental @rental={{rental}} /></li>
       {{/each}}

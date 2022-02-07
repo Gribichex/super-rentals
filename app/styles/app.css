@@ -126,6 +126,14 @@ p {
   text-align: center;
   font-style: italic;
 }
+ .rentals .searchResult  {
+  font-size: 140%;
+  width: 100%;
+  margin: 50px auto 20px;
+  display: block;
+  text-align: center;
+}
+
 
 .rentals input {
   padding: 11px;

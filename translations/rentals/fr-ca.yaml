@@ -1,3 +1,4 @@
 searchbar:
   title: Ou voulez-vous passer votre sejour ?
-
+propertycount: >
+  Votre recherche {numProperties, plural, =0 {n'a pas retourne de resultat.} =1 {a retourne 1 resultat} other {a retourne # resultats.}}
