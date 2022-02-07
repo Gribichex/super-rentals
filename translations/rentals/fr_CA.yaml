@@ -1,0 +1,5 @@
+fr_CA:
+  searchbar:
+    title: 'Ou voulez-vous passer votre sejour ?'
+  property-count: "Votre recherche {numProperties, plural, =0 { n'a pas retourné de resultat. } =1 { a retourne 1 résultat. } other { a retourne # resultats. }}\n"
+  current-date: "La date actuelle est le {currentDate, date, long}\n"

@@ -1,0 +1,5 @@
+en_US:
+  searchbar:
+    title: 'Where would you like to stay?'
+  property-count: "Your search for {numProperties, plural, =0 { returned no results. } =1 { a returns 1 result. } other { a returns # results. }}\n"
+  current-date: "Current Date is {currentDate, date, long}\n"
