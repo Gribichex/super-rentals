@@ -1,2 +1,3 @@
-about_link: A propos
-contact_link: Contact
+fr_CA:
+  about_link: 'A propos'
+  contact_link: Contact

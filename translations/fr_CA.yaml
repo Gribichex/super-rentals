@@ -1,3 +1,4 @@
-welcome:
-  title: Bienvenue chez Super Rentals!
-  subtitle: Nous esperons que vous trouvez exactement ce qu'il vous faut comme endroit ou rester
+fr_CA:
+  welcome:
+    title: 'Bienvenue chez Super Rentals!'
+    subtitle: 'Nous espérons que vous trouvez exactement ce qu''il vous faut comme endroit ou rester'
