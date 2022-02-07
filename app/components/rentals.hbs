@@ -7,7 +7,7 @@
   <ul class='results'>
     <Rentals::Filter @rentals={{@rentals}} @query={{this.query}} as |results|>
       <div class='searchResult'>{{t
-          'rentals.propertycount'
+          'rentals.property-count'
           numProperties=results.length
         }}</div>
       {{#each results as |rental|}}
